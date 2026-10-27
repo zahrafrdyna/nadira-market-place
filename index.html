@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dokumen 14-9-26</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>MARKET PLACE,product card</h1>
+    <nav>
+      <a href="#product"></a>
+      <a>kontak</a>
+      <a id="keranjang">keranjang (<span id="cart-cont">0</span>)</a>
+    </nav>
+  </header>
+  <main>
+    <div class="product-grid" id="product">
+      <div class="product-card">
+        <img src="matcha late.jpg" alt="gambar" />
+        <h3>MATCHA LATE</h3>
+        <p class="price">Rp-18.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn" data-nama="matcha late">beli sekarang</button>
+      </div>
+
+      <div class="product-card">
+        <img src="moca.jpg" alt="gambar" />
+        <h3>MOCHA LATE</h3>
+        <p class="price">Rp-18.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn">beli sekarang</button>
+      </div>
+
+      <div class="product-card">
+        <img src="manggo.jpg" alt="gambar" />
+        <h3>GELANGUE</h3>
+        <p class="price">Rp-20.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn">beli sekarang</button>
+      </div>
+
+      <div class="product-card">
+        <img src="berry.jpg" alt="gambar" />
+        <h3>BERRY</h3>
+        <p class="price">Rp-20.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn">beli sekarang</button>
+      </div>
+
+      <div class="product-card">
+        <img src="lemon.jpg" alt="gambar" />
+        <h3>LEMONNADE</h3>
+        <p class="price">Rp-18.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn">beli sekarang</button>
+       </div>
+
+      <div class="product-card">
+        <img src="chocolate.jpg" alt="gambar" />
+        <h3>GELATO CHOCOLAT</h3>
+        <p class="price">Rp-18.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn">beli sekarang</button>
+      </div>
+
+      <div class="product-card">
+        <img src="co.jpg" alt="gambar" />
+        <h3>CHOLTACE</h3>
+        <p class="price">Rp-20.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn">beli sekarang</button>
+      </div>
+
+      <div class="product-card">
+        <img src="frais gelato.jpg" alt="gambar" />
+        <h3>FRAISE GELATO</h3>
+        <p class="price">Rp-20.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn">beli sekarang</button>
+      </div>
+
+      <div class="product-card">
+        <img src="gelato caramel.jpg" alt="gambar" />
+        <h3>GELATO CARAMEL</h3>
+        <p class="price">Rp-18.000</p>
+        <div class="qty-steper">
+          <button type="button" class="qty-btn btn-min">-</button>
+          <input type="teks" class="qty-value" value="1" readonly />
+          <button type="button" class="qty-btn btn-plus">+</button>
+        </div>
+        <button class="buy-btn">beli sekarang</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <H2>Hubungi kami</H2>
+    <Form class="kontak">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" placeholder="Nama lengkap" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="email" />
+      <label for="pesan">Pesanan:</label>
+      <textarea type="teks" placeholder="masukkan pesan yang ingin disampaikan"></textarea>
+      <button class="btn-kirim">kirim pesan</button>
+    </Form>
+    <h3>copyright by-♣beruang♦jahat♠</h3>
+  </footer>
+  <script src="./scrip.js"></script>
+</body>
+
+</html>
